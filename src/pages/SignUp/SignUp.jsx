@@ -45,7 +45,7 @@ const SignUp = () => {
 
 
             <input className="color-[#fff] text-2xl text-white w-full mt-4 bg-[#0060AF] h-14 text-center rounded-md" type="submit" value="Submit" />
-            <h2 className="text-center font-serif text-xs mt-2">Already Have An Account <Link className="text-red-400" to='/signup'>Please Sign In</Link></h2>
+            <h2 className="text-center font-serif text-xs mt-2">Already Have An Account <Link className="text-red-400" to='/login'>Please Log In</Link></h2>
         </div>
 
     </form>

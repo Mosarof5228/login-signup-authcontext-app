@@ -19,7 +19,7 @@ const Login = () => {
                     </div>
                 </div>
                 <h2 className="text-4xl text-center font-bold text-[#0060af] mt-4">Hey, Good to see you!</h2>
-                <p>Sign Up to get going with our recruitment process! </p>
+                <p>Log In  to get going with our recruitment process! </p>
             </div>
             <hr className="my-4 border" />
             <div className="space-y-5">
@@ -31,7 +31,7 @@ const Login = () => {
 
 
             <input className="color-[#fff] text-2xl text-white w-full mt-4 bg-[#0060AF] h-14 text-center rounded-md" type="submit" value="Submit" />
-            <h2 className="text-center font-serif text-xs mt-2">Already Have An Account <Link className="text-red-400" to='/signup'>Please Sign In</Link></h2>
+            <h2 className="text-center font-serif text-xs mt-2">If you not have an account <Link className="text-red-400" to='/signup'>Please Sign Up</Link></h2>
         </div>
 
     </form>
